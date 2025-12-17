@@ -13,7 +13,7 @@ A simple and efficient CLI tool to convert FB2 books to EPUB format.
 
 1.  Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:zubrzubr/fb2toepub.git
     cd fb2toepub
     ```
 
