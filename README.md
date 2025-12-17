@@ -45,3 +45,23 @@ python cli.py --input /path/to/fb2/files --output /path/to/save/epub
 
 - `converter.py`: Contains the `FB2Converter` class logic.
 - `cli.py`: Contains the CLI implementation using `typer`.
+
+## Testing
+
+To run the tests, use `pytest`:
+
+```bash
+uv run pytest
+```
+
+## Requirements
+
+To generate `requirements.txt` files:
+
+```bash
+# For production dependencies
+uv export --no-dev --output-file requirements.txt
+
+# For development dependencies
+uv export --output-file requirements-dev.txt
+```
