@@ -1,0 +1,16 @@
+[project]
+name = "fb2toepub"
+version = "0.1.0"
+description = "Converts FB2 books to EPUB format"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ebooklib>=0.20",
+    "lxml>=6.0.2",
+    "typer>=0.20.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "black>=25.12.0",
+]
